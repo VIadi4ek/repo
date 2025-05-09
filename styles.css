@@ -3,5 +3,7 @@ body {
 }
 h1 {
     color:aliceblue
-
+    font-size: 50px;
+    text-align: center;
+font-family: arial, Helvetica, sans-serif;
 }
