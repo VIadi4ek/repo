@@ -1,18 +1,27 @@
 body {
-    background-color: blueviolet;
+    font-family: "Open Sans", sans-serif;
+
 }
-h1 {
-    color:aliceblue
-    font-size: 50px;
+table {
+border-collapse: collapse;
+text-align: center;
+    border-collapse: collapse;
+    margin: 20px;
+  }
+  td {
+    border: 1px solid #333;
+    width: 100px;
+    height: 60px;
     text-align: center;
-font-family: arial, Helvetica, sans-serif;
-}
-div {
-   width: 300px;
-   background-color: burlywood; 
-   padding: 20px;
-   text-align: center;
-}
-span{
-    background-color: aqua;
+    vertical-align: middle;
+    font-size: 14px;
+  }
+  .double-seat {
+    background-color: #d0f0ff;
+  }
+  .two-row-seat {
+    background-color: #e0ffd0;
+  }
+h2 {
+    text-align: center;
 }

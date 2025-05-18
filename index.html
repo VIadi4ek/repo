@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-   <<h1>My first title</h1> <!--Заголовок-->
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+        <<h1>My first title</h1> <!--Заголовок-->
 <h2>This is h2</h2> <!--H2 tag-->
 <h3>This is h3</h3> <!--h3 tag-->
 <h4>This is h4</h4> <!---h4 tag-->
@@ -22,5 +25,42 @@
     <p>hgkdskfdjs;jgj jsglhghs ikjhh</p>
 </div>
 <span>jfjldfkjla</span>
+
+<h2>План рассадки учеников</h2>
+
+<table border="1">
+    <!-- Ряд 1 (передняя часть класса) -->
+    <tr>
+      <td>Анна</td>
+      <td class="double-seat" colspan="2">Богдан, Вика</td>
+      <td class="two-row-seat" rowspan="2">Глеб</td>
+    </tr>
+    <!-- Ряд 2 -->
+    <tr>
+      <td>Даша</td>
+      <td>Егор</td>
+      <td>Женя</td>
+      <!-- Глеб уже объединён сверху -->
+    </tr>
+    <!-- Ряд 3 -->
+    <tr>
+      <td class="double-seat" colspan="2">Зоя, Иван</td>
+      <td class="two-row-seat" rowspan="2">Карина</td>
+      <td>Лёня</td>
+    </tr>
+    <!-- Ряд 4 -->
+    <tr>
+      <td>Мила</td>
+      <td>Никита</td>
+      <!-- Карина уже объединена -->
+      <td>Оля</td>
+    </tr>
+    <!-- Ряд 5 (задняя часть класса) -->
+    <tr>
+      <td class="double-seat" colspan="2">Петя, Рита</td>
+      <td>Саша</td>
+      <td>Таня</td>
+    </tr>
+  </table>
 </body>
 </html>
